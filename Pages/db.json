@@ -1,0 +1,73 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "cate_name": "Home",
+      "img": "https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf-near-bookshelf_105762-2224.jpg?size=626&ext=jpg&ga=GA1.2.1600656915.1686715191&semt=ais"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "cate_id": "1",
+      "service_name": "Furniture",
+      "desc": "lorem",
+      "price": "30000",
+      "img": "https://img.freepik.com/premium-photo/stylish-interior-living-room-with-honey-yellow-sofa-wooden-bookcase-plants-commode-picture-frame-carpet-decoration_431307-2531.jpg?size=626&ext=jpg&ga=GA1.1.1600656915.1686715191&semt=ais",
+      "status": "Available"
+    }
+  ],
+  "employee": [
+    {
+      "id": "1",
+      "name": "charmi",
+      "email": "cp1@gamil.com",
+      "password": "cp@123",
+      "mobile": "9645781235",
+      "img": "https://img.freepik.com/free-photo/isolated-shot-joyful-brenette-young-cute-woman-laughs-joyfully-as-hears-funny-anecdote-from-friend_496169-2540.jpg?size=626&ext=jpg&ga=GA1.1.1600656915.1686715191&semt=ais",
+      "status": "Available"
+    }
+  ],
+  "contact": [
+    {
+      "id": "3",
+      "name": "riya",
+      "email": "rp1@gmail.com",
+      "comment": "Hii"
+    },
+    {
+      "id": "4",
+      "name": "tiya",
+      "email": "tp1@gmail.com",
+      "comment": "Hii"
+    }
+  ],
+  "user": [
+    {
+      "id": "3",
+      "name": "riya",
+      "email": "rp1@gmail.com",
+      "password": "rp@123"
+    },
+    {
+      "id": "4",
+      "name": "tiya",
+      "email": "tp1@gmail.com",
+      "password": "tp@123"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "3",
+      "name": "riya",
+      "email": "rp1@gmail.com",
+      "feedback": "Hii"
+    },
+    {
+      "id": "4",
+      "name": "tiya",
+      "email": "tp1@gmail.com",
+      "feedback": "Hii"
+    }
+  ]
+}
