@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Counter</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <style>
+        div {
+            height: 600px;
+            width: 500px;
+            background-color: rgb(135, 119, 178);
+            align-items: center;
+            border: 2px solid black;
+
+        }
+        input{
+            background-color: rgb(142, 173, 217);
+            border: 2px solid black;
+            align-items: center;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <div>
+        <h1><b>Money Counter</b> </h1>
+        <p>2000 x <input type="number" placeholder="0" id="i1" onkeyup="a()"> = <span id="one">0</span></p>
+        <p>1000 x <input type="number" placeholder="0" id="i2" onkeyup="a()"> = <span id="two">0</span></p>
+        <p>500  x <input type="number" placeholder="0" id="i3" onkeyup="a()"> = <span id="three">0</span></p>
+        <p>200  x <input type="number" placeholder="0" id="i4" onkeyup="a()"> = <span id="four">0</span></p>
+        <p>100  x <input type="number" placeholder="0" id="i5" onkeyup="a()"> = <span id="five">0</span></p>
+        <p>50   x <input type="number" placeholder="0" id="i6" onkeyup="a()"> = <span id="six">0</span></p>
+        <p>20   x <input type="number" placeholder="0" id="i7" onkeyup="a()"> = <span id="seven">0</span></p>
+        <p>10   x <input type="number" placeholder="0" id="i8" onkeyup="a()"> = <span id="eight">0</span></p>
+        <p>5    x <input type="number" placeholder="0" id="i9" onkeyup="a()"> = <span id="nine">0</span></p>
+        <p>2    x <input type="number" placeholder="0" id="i10" onkeyup="a()"> = <span id="ten">0</span></p>
+        <p>1    x <input type="number" placeholder="0" id="i11" onkeyup="a()"> = <span id="eleven">0</span></p>
+        Total Cash:<P id="th1">0</P>
+        
+
+    </div>
+    
+</body>
+</html>
+<script>
+    function a() {
+        var number1 = document.getElementById("i1").value;
+        var number_1 = document.getElementById("one").innerHTML = number_1 = (2000 * number1)
+
+        var number2 = document.getElementById("i2").value;
+        var number_2 = document.getElementById("two").innerHTML = number_2 = (1000 * number2)
+
+        var number3 = document.getElementById("i3").value;
+        var number_3 = document.getElementById("three").innerHTML = number_3 = (500 * number3)
+
+        var number4 = document.getElementById("i4").value;
+        var number_4 = document.getElementById("four").innerHTML = number_4 = (200 * number4)
+
+        var number5 = document.getElementById("i5").value;
+        var number_5 = document.getElementById("five").innerHTML = number_5 = (100 * number5)
+
+        var number6 = document.getElementById("i6").value;
+        var number_6 = document.getElementById("six").innerHTML = number_6 = (50 * number6)
+
+        var number7 = document.getElementById("i7").value;
+        var number_7 = document.getElementById("seven").innerHTML = number_7 = (20 * number7)
+
+        var number8 = document.getElementById("i8").value;
+        var number_8 = document.getElementById("eight").innerHTML = number_8 = (10 * number8)
+
+        var number9 = document.getElementById("i9").value;
+        var number_9 = document.getElementById("nine").innerHTML = number_9 = (5 * number9)
+
+        var number10 = document.getElementById("i10").value;
+        var number_10 = document.getElementById("ten").innerHTML = number_10 = (2 * number10)
+
+        var number11 = document.getElementById("i11").value;
+        var number_11 = document.getElementById("eleven").innerHTML = number_11 = (1 * number11)
+
+        var n3 = document.getElementById("th1").innerHTML = number_1 + number_2 + number_3 + number_4 + number_5 + number_6 + number_7 + number_8 + number_9 + number_10 + number_11
+
+    }
+</script>
